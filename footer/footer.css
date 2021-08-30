@@ -1,0 +1,22 @@
+.main-footer {
+  position: sticky;
+  bottom: 0px;
+  background-color: whitesmoke;
+  color: black;
+  width: 100%;
+  height: 40px;
+}
+.main-footer-items {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+}
+.main-footer-item {
+  display: inline-block;
+  align-self: center;
+  cursor: pointer;
+}
+.main-footer-item:hover,
+.main-footer-item:active {
+  text-decoration: underline;
+}

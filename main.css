@@ -6,6 +6,9 @@ body {
 }
 
 @media (max-width: 959px) {
+  .hide-mobile {
+    display: none !important;
+  }
   .photo-bg {
     background: url("./assets/img/laptop-background.jpg") no-repeat center
       center scroll;
@@ -16,6 +19,9 @@ body {
   }
 }
 @media (min-width: 960px) {
+  .hide-desktop {
+    display: none;
+  }
   .photo-bg {
     background: url("./assets/img/laptop-background.jpg") no-repeat center
       center fixed;

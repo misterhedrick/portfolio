@@ -8,3 +8,12 @@ window.addEventListener("scroll", function () {
     header.classList.add("transparentNav");
   }
 });
+
+function scrollToByID(id) {
+  $("html, body").animate(
+    {
+      scrollTop: $("#" + id).offset().top,
+    },
+    1000
+  );
+}

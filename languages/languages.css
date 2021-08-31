@@ -1,0 +1,18 @@
+.languages-section .section-title {
+  text-align: center;
+}
+.languages-section h2 {
+  margin: 0;
+  text-align: center;
+}
+.list-container {
+  width: 100%;
+  margin: 0;
+}
+.languages-section .pill {
+  width: calc(50% - 20px);
+}
+.pill-container {
+  width: 90%;
+  padding: 10px 1rem;
+}

@@ -5,15 +5,15 @@
 .whiteNav {
   background-color: whitesmoke;
   color: #333333;
+  border-bottom: #000000 2px solid;
 }
 .main-header {
   display: inline-block;
   width: 100%;
   position: fixed;
   top: 0;
-  border-bottom: #000000 2px solid;
   font-weight: bold;
-  height: 50px;
+  font-size: 20px;
 }
 .main-header-title {
   display: inline-block;

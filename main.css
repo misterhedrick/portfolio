@@ -3,11 +3,24 @@ html {
 }
 body {
   margin: 0;
+  background-color: whitesmoke;
+}
+
+.photo-bg > * {
+  color: #ffffff;
+}
+
+.container {
+  padding: 5rem 0;
 }
 
 @media (max-width: 959px) {
   .hide-mobile {
     display: none !important;
+  }
+  .container {
+    width: 95%;
+    margin: auto;
   }
   .photo-bg {
     background: url("./assets/img/laptop-background.jpg") no-repeat center
@@ -22,6 +35,10 @@ body {
   .hide-desktop {
     display: none;
   }
+  .container {
+    width: 70%;
+    margin: auto;
+  }
   .photo-bg {
     background: url("./assets/img/laptop-background.jpg") no-repeat center
       center fixed;
@@ -35,4 +52,32 @@ body {
 section {
   background-color: whitesmoke;
   min-height: 75vh;
+}
+
+.section-title {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0 0 16px;
+}
+.list-container {
+  display: flex;
+}
+.pill {
+  color: #333333;
+  margin: 3px 0;
+  background-color: lightgray;
+  border-radius: 25px;
+  margin: 5px 10px;
+  width: 100%;
+}
+.col-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.col-1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }

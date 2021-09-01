@@ -4,15 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Daniel Portfolio</title>
+    <link href="./assets/font-awesome/css/all.min.css" rel="stylesheet">
+    <script defer src="./assets/font-awesome/js/all.min.js"></script>
     <link rel="shortcut icon" href="favicon.png" />
     <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="./header/header.css" />
-    <link rel="stylesheet" href="./home/home.css" />
-    <link rel="stylesheet" href="./me/me.css" />
-    <link rel="stylesheet" href="./languages/languages.css" />
-    <link rel="stylesheet" href="./achievements/achievements.css" />
-    <link rel="stylesheet" href="./experience/experience.css" />
-    <link rel="stylesheet" href="./footer/footer.css" />
+    <link rel="stylesheet" href="./src/header/header.css" />
+    <link rel="stylesheet" href="./src/home/home.css" />
+    <link rel="stylesheet" href="./src/me/me.css" />
+    <link rel="stylesheet" href="./src/languages/languages.css" />
+    <link rel="stylesheet" href="./src/achievements/achievements.css" />
+    <link rel="stylesheet" href="./src/experience/experience.css" />
+    <link rel="stylesheet" href="./src/footer/footer.css" />
   </head>
 
   <body>
@@ -128,20 +130,25 @@
           <div class="list-container">
             <div class="col-wrap">
               <div class="achievement">
+                <i class="fas fa-circle"></i>
                 <h2>Lead Angular POC</h2>
               </div>
               <div class="achievement">
+                <i class="fas fa-circle"></i>
                 <h2>Lead Raspberry Pi POC</h2>
               </div>
               <div class="achievement">
+                <i class="fas fa-circle"></i>
                 <h2>
                   Held multiple lunch and learns teaching IT dept basic Angular
                 </h2>
               </div>
               <div class="achievement">
+                <i class="fas fa-circle"></i>
                 <h2>Developed CMS for website</h2>
               </div>
               <div class="achievement">
+                <i class="fas fa-circle"></i>
                 <h2>Migrate website from JSP to JSF</h2>
               </div>
             </div>
@@ -267,11 +274,11 @@
 
     <footer class="main-footer hide-desktop">
       <div class="main-footer-items">
-        <div class="main-footer-item" onclick="scrollToByID('home')">Home</div>
-        <div class="main-footer-item" onclick="scrollToByID('me')">Me</div>
-        <div class="main-footer-item" onclick="scrollToByID('languages')">Languages</div>
-        <div class="main-footer-item" onclick="scrollToByID('achievements')">Achievements</div>
-        <div class="main-footer-item" onclick="scrollToByID('experience')">Experience</div>
+        <div class="main-footer-item" onclick="scrollToByID('home')"><i class="fas fa-home fa-2x"></i></div>
+        <div class="main-footer-item" onclick="scrollToByID('me')"><i class="fas fa-user fa-2x"></i></div>
+        <div class="main-footer-item" onclick="scrollToByID('languages')"><i class="fas fa-laptop-code fa-2x"></i></div>
+        <div class="main-footer-item" onclick="scrollToByID('achievements')"><i class="fas fa-tasks fa-2x"></i></div>
+        <div class="main-footer-item" onclick="scrollToByID('experience')"><i class="fas fa-history fa-2x"></i></div>
       </div>
     </footer>
   </body>

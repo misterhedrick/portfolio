@@ -1,0 +1,9 @@
+.achievement {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.achievement > h2 {
+  margin: 1rem;
+}

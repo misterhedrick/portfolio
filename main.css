@@ -30,6 +30,11 @@ body {
     -o-background-size: cover;
     background-size: cover;
   }
+  .col-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 }
 @media (min-width: 960px) {
   .hide-desktop {
@@ -46,6 +51,11 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  }
+  .col-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
   }
 }
 
@@ -71,11 +81,7 @@ section {
   margin: 5px 10px;
   width: 100%;
 }
-.col-wrap {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
+
 .col-1 {
   display: flex;
   flex-direction: column;

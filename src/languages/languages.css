@@ -9,8 +9,18 @@
   width: 100%;
   margin: 0;
 }
-.languages-section .pill {
-  width: calc(50% - 20px);
+@media (min-width: 960px) {
+  .languages-section .pill {
+    width: calc(50% - 20px);
+  }
+}
+@media (max-width: 959px) {
+  .languages-section .pill {
+    width: 90%;
+  }
+  .languages-section .col-wrap {
+    align-items: center;
+  }
 }
 .pill-container {
   width: 90%;

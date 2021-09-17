@@ -77,10 +77,9 @@ section {
 }
 .pill {
   color: $dark-text;
-  margin: 3px 0;
   background-color: darken($main-bg, 20);
   border-radius: 25px;
-  margin: 5px 10px;
+  margin: 8px 10px;
   width: 100%;
 }
 
@@ -133,12 +132,22 @@ section {
 // Header Styles
 .transparentNav {
   background-color: transparent;
-  color: $main-bg;
+  color: $light-text;
+  .main-header-nav-item:hover,
+  .main-header-nav-item:active {
+    text-decoration: underline;
+    color: darken($light-text, 20);
+  }
 }
 .whiteNav {
   background-color: $main-bg;
   color: $dark-text;
   border-bottom: #000000 2px solid;
+  .main-header-nav-item:hover,
+  .main-header-nav-item:active {
+    text-decoration: underline;
+    color: lighten($dark-text, 20);
+  }
 }
 .main-header {
   display: flex;
@@ -166,10 +175,6 @@ section {
   padding: 0 10px;
   list-style-type: none;
   cursor: pointer;
-}
-.main-header-nav-item:hover,
-.main-header-nav-item:active {
-  text-decoration: underline;
 }
 
 // Home Styles
@@ -222,6 +227,11 @@ section {
   .languages-section .col-wrap {
     align-items: center;
   }
+}
+
+.languages-section .pill:hover {
+  background-color: $main-bg;
+  transform: translateY(-3px);
 }
 .pill-container {
   width: 90%;

@@ -82,10 +82,9 @@ section {
 
 .pill {
   color: #333333;
-  margin: 3px 0;
   background-color: #c2c2c2;
   border-radius: 25px;
-  margin: 5px 10px;
+  margin: 8px 10px;
   width: 100%;
 }
 
@@ -140,11 +139,21 @@ section {
   background-color: transparent;
   color: whitesmoke;
 }
+.transparentNav .main-header-nav-item:hover,
+.transparentNav .main-header-nav-item:active {
+  text-decoration: underline;
+  color: #c2c2c2;
+}
 
 .whiteNav {
   background-color: whitesmoke;
   color: #333333;
   border-bottom: #000000 2px solid;
+}
+.whiteNav .main-header-nav-item:hover,
+.whiteNav .main-header-nav-item:active {
+  text-decoration: underline;
+  color: #666666;
 }
 
 .main-header {
@@ -177,11 +186,6 @@ section {
   padding: 0 10px;
   list-style-type: none;
   cursor: pointer;
-}
-
-.main-header-nav-item:hover,
-.main-header-nav-item:active {
-  text-decoration: underline;
 }
 
 .home-section {
@@ -238,6 +242,11 @@ section {
     align-items: center;
   }
 }
+.languages-section .pill:hover {
+  background-color: whitesmoke;
+  transform: translateY(-3px);
+}
+
 .pill-container {
   width: 90%;
   padding: 10px 1rem;
